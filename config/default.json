@@ -1,0 +1,8 @@
+{
+    "port": 5000, 
+    "jwtSecret": "tkachenko diploma work",
+    "mongoUri": "mongodb+srv://proftva:67Rs+VnW@cluster0.unwkr.mongodb.net/dip?retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:5000", 
+    "apiKey": "0e47ae70",
+    "apiSecret": "uggUtP97Vovs24KV"
+}

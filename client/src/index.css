@@ -1,0 +1,70 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+input.yellow-input {
+    border-bottom: 1px solid #fff!important;
+    box-shadow: 0 1px 0 0 #fff!important;
+}
+
+input.yellow-input + label{
+    color: #ffffff !important;
+}
+
+input.yellow-input:focus + label{
+    color: #ffeb3b !important;
+}
+
+input.yellow-input:focus {
+    border-bottom: 1px solid #ffeb3b!important;
+    box-shadow: 0 1px 0 0 #ffeb3b!important;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+textarea {
+    background-color: #fff;
+    font-size: 20px;
+    max-width: 450px;
+    min-width: 450px;
+    min-height: 100px;
+}
+
+.smsInput {
+    color: #fff;
+    font-size: 12px;
+}
+
+.card-action {
+    text-align: center;
+}
+
+#root {
+    height: inherit;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.TextInput {
+    text-align: center;
+}
+
+td {
+    border-radius: 0!important;
+}
